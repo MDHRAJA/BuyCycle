@@ -1,5 +1,14 @@
 # HackerRank Orchestrate
 
+## Vercel deployment
+
+The repository includes a Vercel serverless adapter at `api/index.py` and a
+rewrite configuration in `vercel.json`. In Vercel, select the **Other** preset,
+leave the build command and output directory empty, and set `GEMINI_API_KEY`
+as an encrypted environment variable. The application data tracked in
+`dataset/` must remain available to the deployment; it is excluded only from
+the HackerRank code-zip submission.
+
 Starter repository for the **HackerRank Orchestrate** 24-hour hackathon (September 2026).
 
 ## Buy or Wait?
