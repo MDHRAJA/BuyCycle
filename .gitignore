@@ -1,0 +1,15 @@
+# Challenge data and generated submission artifacts
+dataset/
+output.csv
+code.zip
+log.txt
+
+# Local runtime and Python artifacts
+work/
+__pycache__/
+*.py[cod]
+.env
+
+# Editor and operating-system metadata
+.DS_Store
+Thumbs.db
